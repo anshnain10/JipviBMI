@@ -1,0 +1,15 @@
+//
+//  DetailsModel.swift
+//  JipviBMIAssignment
+//
+//  Created by ANSH on 23/06/24.
+//
+
+import SwiftUI
+
+struct PersonalDetails: Identifiable {
+    var id = UUID()
+    var date: Date
+    var height: Double
+    var weight: Double
+}
